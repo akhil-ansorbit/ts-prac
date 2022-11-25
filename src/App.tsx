@@ -1,6 +1,8 @@
 import React from "react";
-import Form from "./Form";
-import Profile from "./Profile";
+import Form from "./Form/Form";
+import Profile from "./Form/Profile";
+import Parent1 from "./Utilities types/Parent1";
+import Parent2 from "./Utilities types/Parent2";
 
 const App = () => {
   return (
@@ -10,6 +12,9 @@ const App = () => {
           <span>salary = 5ctc</span>
         </Profile>
         <Form />
+        <hr />
+        <Parent1 />
+        <Parent2 />
       </div>
     </>
   );
